@@ -1,0 +1,36 @@
+.main {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    color: navy;
+    margin-bottom: 50px;
+    justify-content: center;
+    background-color: gainsboro;
+    border-radius: 0px 0px 5px 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main a {
+        margin: 1rem !important;
+    }
+}
+
+.main a {
+    margin: 25px;
+    cursor: pointer;
+}
+
+.main a:hover {
+    color: seagreen;
+}
+
+.active {
+    color: darkblue;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.inactive {
+    color: navy;
+}
